@@ -1,0 +1,372 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #000000;
+}
+
+button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+input, textarea {
+  border: none;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+img {
+  display: block;
+}
+
+.fontSize-xl {
+  font-size: 36px;
+}
+
+.fontSize-l {
+  font-size: 24px;
+}
+
+.fontSize-m {
+  font-size: 18px;
+}
+
+.fontWeight-m {
+  font-weight: 500;
+}
+
+.text-primary {
+  color: #00cc99;
+}
+
+.text-w {
+  color: #ffffff;
+}
+
+.text-r {
+  color: #e54991;
+}
+
+.text-fb {
+  color: #3b5998;
+}
+
+.text-twitter {
+  color: #00acee;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.p-base {
+  padding: 10px;
+}
+
+.p-s {
+  padding: 5px;
+}
+
+.p-m {
+  padding: 20px;
+}
+
+.px-m {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.px-s {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.py-l {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.py-s {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.pr-s {
+  padding-right: 5px;
+}
+
+.pt-l {
+  padding-top: 30px;
+}
+
+.pb-xl {
+  padding-bottom: 60px;
+}
+
+.mx-m {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mb-base {
+  margin-bottom: 10px;
+}
+
+.mb-s {
+  margin-bottom: 5px;
+}
+
+.mb-m {
+  margin-bottom: 20px;
+}
+
+.mb-l {
+  margin-bottom: 30px;
+}
+
+.mb-xl {
+  margin-bottom: 60px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.align-items-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.align-self-start {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.list-style-disc {
+  list-style: disc;
+}
+
+.list-style-position-inside {
+  list-style-position: inside;
+}
+
+.bg-primary {
+  background-color: #00cc99;
+}
+
+.bg-gray {
+  background-color: #f7f7f7;
+}
+
+.socialLink li + li {
+  border-left: 1px solid #c4c4c4;
+}
+
+.socialLink li + li a:last-child {
+  padding-right: 0;
+}
+
+.logo a {
+  width: 170px;
+  height: 36px;
+  background-image: url("../img/logo.png");
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.menu a {
+  border-bottom: 3px solid transparent;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid #00cc99;
+}
+
+.menu .active {
+  border-bottom: 3px solid #00cc99;
+}
+
+.banner {
+  padding: 90px 0;
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.solgan {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.courseCard {
+  width: 300px;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.courseCard .courseImg {
+  height: 150px;
+}
+
+.difference {
+  width: 840px;
+  margin: 60px auto;
+}
+
+.difference th {
+  text-align: left;
+  padding: 5px;
+}
+
+.difference td {
+  padding: 5px;
+}
+
+.difference tr {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.difference thead:first-of-type {
+  border-top: 1px solid #c4c4c4;
+}
+
+.contact {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00644b), to(#009872));
+  background: linear-gradient(#00644b 0%, #009872 100%);
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+textarea {
+  width: 460px;
+  border-radius: 3px;
+}
+
+input {
+  width: 460px;
+  border-radius: 3px;
+}
+
+.footerLogo {
+  width: 170px;
+  height: 36px;
+}
+/*# sourceMappingURL=all.css.map */

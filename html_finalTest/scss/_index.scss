@@ -1,0 +1,75 @@
+.socialLink{
+    li+li{
+        border-left: 1px solid $gray-dark;
+    }
+    li+li a:last-child{
+        padding-right: 0;
+    }
+}
+.logo a{
+    width: 170px;
+    height: 36px;
+    @include replace-h1("../img/logo.png");
+}
+.menu a{
+    border-bottom: 3px solid transparent;
+    &:hover{
+        border-bottom: 3px solid $primary;
+    }
+}
+.menu .active{
+    border-bottom: 3px solid $primary;
+}
+.banner{
+    padding: 90px 0;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.solgan{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.courseCard{
+    width: 300px;
+    border: 1px solid $gray;
+    border-radius: 10px;
+    @include boxShadow(0, 2px, 1px, 1px);
+    .courseImg{
+        height: 150px;
+    }
+}
+.difference{
+    width: 840px;
+    margin: $spacing-xl auto;
+    th{
+        text-align: left;
+        padding: $spacing-s;
+    }
+    td{
+        padding: $spacing-s;
+    }
+    tr{
+        border-bottom: 1px solid $gray-dark;
+    }
+    thead:first-of-type{
+        border-top: 1px solid $gray-dark;
+    }
+}
+.contact{
+    background: linear-gradient($primary-dark 0%, $primary-light 100%);
+    h2{
+        text-align: center;
+    }
+}
+textarea{
+    width: 460px;
+    border-radius: 3px;
+}
+input{
+    width: 460px;
+    border-radius: 3px;
+}
+.footerLogo{
+    width: 170px;
+    height: 36px;
+}

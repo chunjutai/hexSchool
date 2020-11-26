@@ -1,0 +1,163 @@
+// myReset
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: $sans-font;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: $black;
+}
+button{
+    font-family: $sans-font;
+    font-size: $fontSize;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    &:focus{
+        outline: none;
+    }
+}
+input,textarea{
+    border: none;
+    &:focus{
+        outline: none;
+    }
+}
+img{
+    display: block;
+}
+//fontSetting
+.fontSize-xl{
+    font-size: $fontSize-xl;
+}
+.fontSize-l{
+    font-size: $fontSize-l;
+}
+.fontSize-m{
+    font-size: $fontSize-m;
+}
+.fontWeight-m{
+    font-weight: $fontWeight-m;
+}
+.text-primary{
+    color: $primary;
+}
+.text-w{
+    color: $white;
+}
+.text-r{
+    color: $red;
+}
+.text-fb{
+    color: $blue-fb;
+}
+.text-twitter{
+    color: $blue-twitter;
+}
+// container
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+//spacing
+//padding
+.p-base{
+    padding: $spacing;
+}
+.p-s{
+    padding: $spacing-s;
+}
+.p-m{
+    padding: $spacing-m;
+}
+.px-m{
+    padding-left: $spacing-m;
+    padding-right: $spacing-m;
+}
+.px-s{
+    padding-left: $spacing-s;
+    padding-right: $spacing-s;
+}
+.py-l{
+    padding-top: $spacing-l;
+    padding-bottom: $spacing-l;
+}
+.py-s{
+    padding-top: $spacing-s;
+    padding-bottom: $spacing-s;
+}
+.pr-s{
+    padding-right: $spacing-s;
+}
+.pt-l{
+    padding-top: $spacing-l;
+}
+.pb-xl{
+    padding-bottom: $spacing-xl;
+}
+//margin
+.mx-m{
+    margin-left: $spacing-m;
+    margin-right: $spacing-m;
+}
+.mb-base{
+    margin-bottom: $spacing;
+}
+.mb-s{
+    margin-bottom: $spacing-s;
+}
+.mb-m{
+    margin-bottom: $spacing-m;
+}
+.mb-l{
+    margin-bottom: $spacing-l;
+}
+.mb-xl{
+    margin-bottom: $spacing-xl;
+}
+//Flex
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.align-self-start{
+    align-self: flex-start;
+}
+//listStyle
+.list-style-disc{
+    list-style: disc;
+}
+.list-style-position-inside{
+    list-style-position: inside;
+}
+//background
+.bg-primary{
+    background-color: $primary;
+}
+.bg-gray{
+    background-color: $gray;
+}

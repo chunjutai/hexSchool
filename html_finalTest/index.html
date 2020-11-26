@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html5 finalTest</title>
+    <link rel="stylesheet" href="scss/all.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul class="socialLink flex justify-content-end bg-gray px-m">
+                <li>
+                    <a class="text-fb flex align-items-center px-s" href="#">
+                        <img src="img/facebookIcon.png" alt="fb" class="pr-s">粉絲團
+                    </a>
+                </li>
+                <li>
+                    <a class="text-twitter flex align-items-center px-s" href="#">
+                        <img src="img/twitterIcon.png" alt="twitter" class="pr-s">追蹤我們
+                    </a>
+                </li>
+            </ul>
+            <header class="flex justify-content-between align-items-center">
+                <h1 class="logo"><a href="#">HexSchool</a></h1>
+                <ul class="menu flex">
+                    <li>
+                        <a class="active text-primary p-base" href="#">首頁</a>
+                    </li>
+                    <li>
+                        <a class="text-primary p-base" href="#">產品介紹</a>
+                    </li>
+                    <li>
+                        <a class="text-primary p-base" href="#">聯絡我們</a>
+                    </li>
+                </ul>
+            </header>
+        </nav>
+        <div class="banner mb-xl">
+            <h2 class="solgan fontSize-xl fontWeight-m text-w px-m py-l">六角學院<br>讓您奠定良好的前端基礎</h2>
+        </div>
+        <div class="course flex justify-content-between mb-xl">
+            <div class="courseCard flex flex-column align-items-center p-m">
+                <div class="courseImg flex align-items-center">
+                    <img src="img/html.png" alt="html">
+                </div>
+                <h3 class="fontWeight-m mb-s">HTML5 基礎教學</h3>
+                <p>主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
+            </div>
+            <div class="courseCard flex flex-column align-items-center p-m">
+                <div class="courseImg flex align-items-center">
+                    <img src="img/rwd.png" alt="rwd">
+                </div>
+                <h3 class="fontWeight-m mb-s">響應式網站設計</h3>
+                <p>響應式網站設計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的，六角學院將會提供業界響應式開發方法，讓學生了解行動版開發技巧。</p>
+            </div>
+            <div class="courseCard flex flex-column align-items-center p-m">
+                <div class="courseImg flex align-items-center">
+                    <img src="img/jQuery.png" alt="jQuery">
+                </div>
+                <h3 class="fontWeight-m mb-s">jQuery 實戰教學</h3>
+                <p class="align-self-start">本課程有以下特色</p>
+                <ul class="align-self-start list-style-disc list-style-position-inside">
+                    <li>了解變數的使用方法</li>
+                    <li>學習並操作 DOM</li>
+                    <li>學習基本數學運算方法</li>
+                    <li>套件的操作及運用</li>
+                </ul>                
+            </div>
+        </div>
+        <table class="difference">
+            <caption class="fontSize-l fontWeight-m mb-l">線上及實體課程的差異</caption>
+            <thead class="bg-gray">
+                <tr>
+                    <th class="fontWeight-m" scope="col">項目</th>
+                    <th class="fontWeight-m" scope="col">Hexschool 線上課程</th>
+                    <th class="fontWeight-m" scope="col">一般線上課程</th>
+                    <th class="fontWeight-m" scope="col">實體課程</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">費用</th>
+                    <td class="text-primary">較低</td>
+                    <td class="text-primary">較低</td>
+                    <td>較高</td>
+                </tr>
+                <tr>
+                    <th scope="row">學習效果</th>
+                    <td>一般</td>
+                    <td class="text-primary">較低</td>
+                    <td class="text-primary">很好</td>
+                </tr>
+                <tr>
+                    <th scope="row">Code review</th>
+                    <td class="text-primary">有</td>
+                    <td>無</td>
+                    <td>不一定</td>
+                </tr>
+                <tr>
+                    <th scope="row">課程更新速度</th>
+                    <td class="text-primary">普通</td>
+                    <td class="text-primary">普通</td>
+                    <td>較慢</td>
+                </tr>
+                <tr>
+                    <th scope="row">多次複習</th>
+                    <td class="text-primary">可</td>
+                    <td>可</td>
+                    <td>不可</td>
+                </tr>
+                <tr>
+                    <th scope="row">字幕</th>
+                    <td class="text-primary">有</td>
+                    <td>不一定</td>
+                    <td>板書</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="contact px-m py-l">
+            <h2 class="fontSize-l fontWeight-m text-w mb-l">
+                對我們課程有興趣嗎?<br>歡迎留下您的資料
+            </h2>
+            <form action="#" class="flex justify-content-between">
+                <textarea name="訊息" id="message" class="p-base"></textarea>
+                <div class="contactInformation flex flex-column align-items-end">
+                    <fieldset class="flex flex-column mb-base">
+                        <label for="name" class="text-w mb-s">姓名</label>
+                        <input type="text" name="姓名" id="name" placeholder="六角講師" class="p-s">
+                    </fieldset>
+                    <fieldset class="flex flex-column mb-base">
+                        <label for="phone" class="text-w mb-s">電話</label>
+                        <input type="tel" name="電話" id="phone" placeholder="0912345678" class="p-s">
+                    </fieldset>
+                    <fieldset class="flex flex-column mb-m">
+                        <label for="email" class="text-w mb-s">信箱</label>
+                        <input type="email" name="信箱" id="email" placeholder="hexschool@gmail.com" class="p-s">
+                    </fieldset>
+                    <button type="submit" class="text-w bg-primary px-m py-s">送出</button>
+                </div>
+            </form>
+        </div>
+        <footer class="flex justify-content-between px-m pt-l pb-xl">
+            <img class="footerLogo" src="img/footerLogo.png" alt="hexSchool Logo">
+            <ul>
+                <li class="flex mb-s">
+                    聯絡我們：<a class="text-r" href="mailto:hexschool@gmail.com?subject=Mail from Our Site"">hexschool@gmail.com</a>
+                </li>
+                <li class="flex">
+                    電話：<a class="text-r" href="tel:+886-999123456">0999123456</a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

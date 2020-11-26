@@ -1,0 +1,11 @@
+@mixin replace-h1($logo-path) {
+    background-image: url($logo-path);
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@mixin boxShadow($offset-x, $offset-y, $blur-radius, $spread-radius) {
+    box-shadow: $offset-x $offset-y $blur-radius $spread-radius rgba(0, 0, 0, 0.1);
+}
