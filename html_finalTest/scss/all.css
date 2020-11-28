@@ -173,6 +173,10 @@ img {
   padding-right: 5px;
 }
 
+.pl-base {
+  padding-left: 10px;
+}
+
 .pt-l {
   padding-top: 30px;
 }
@@ -204,6 +208,10 @@ img {
 
 .mb-xl {
   margin-bottom: 60px;
+}
+
+.ml-base {
+  margin-left: 10px;
 }
 
 .flex {

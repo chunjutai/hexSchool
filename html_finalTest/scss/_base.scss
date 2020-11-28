@@ -96,6 +96,9 @@ img{
 .pr-s{
     padding-right: $spacing-s;
 }
+.pl-base{
+    padding-left: $spacing;
+}
 .pt-l{
     padding-top: $spacing-l;
 }
@@ -121,6 +124,9 @@ img{
 }
 .mb-xl{
     margin-bottom: $spacing-xl;
+}
+.ml-base{
+    margin-left: $spacing;
 }
 //Flex
 .flex{
